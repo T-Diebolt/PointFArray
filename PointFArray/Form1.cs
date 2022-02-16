@@ -29,7 +29,7 @@ namespace PointFArray
 
             Graphics g = this.CreateGraphics();
             // should also have SolidBrush or Pen
-            Pen redPen = new Pen(Color.Red);
+            Pen redPen = new Pen(Color.Red, 5);
 
             //g.DrawLine(redPen, point1, point2);
             //g.DrawLine(redPen, point2, point3);
